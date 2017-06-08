@@ -1,7 +1,8 @@
 Dockerized Nginx Container with Vault Integration
 =================================================
 
-This container is designed to work with existing [Hashicorp Vault](https://www.vaultproject.io/) infrastructure to dynamically configure itself at run time.<br>
+This container is designed to work with existing [Hashicorp Vault](https://www.vaultproject.io/) infrastructure.<br>
+Specifically: it will dynamically configure itself at run time with content in vault.<br>
 A set of environment variables tell the container which Vault instance to use, and which path to fetch secrets from.
 
 If no secrets can be fetched, the default hardcoded values are used.
