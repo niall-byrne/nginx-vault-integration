@@ -27,6 +27,6 @@ You'll need to generate a vault token for your application instance, and tell th
         -e TOKEN="c44a455e-9ecf-40f0-8d16-3368e5cca33c" \
         -e URL=https://vaultinstance.com:8200 \
         -e INDEX=nginx-instance-1 \
-        niallbyrne\ngnix
+        niall-byrne/nginx-vault-integration
 
 ```
