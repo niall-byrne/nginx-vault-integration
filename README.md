@@ -12,9 +12,9 @@ If no secrets can be fetched, the default hardcoded values are used.
 Seed your vault instance with the appropriate configuration files.<br>
 For example:
 ```
-    $ vault write secret/ngnix-instance-1/default.conf value=@myfile.txt
-    $ vault write secret/ngnix-instance-1/cert value=@mycert.crt
-    $ vault write secret/ngnix-instance-1/key value=@mykey.key
+    $ vault write secret/nginx-instance-1/default.conf value=@myfile.txt
+    $ vault write secret/nginx-instance-1/cert value=@mycert.crt
+    $ vault write secret/nginx-instance-1/key value=@mykey.key
 ```
 
 ## Start the Container, using the correct environment variables
